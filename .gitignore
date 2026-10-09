@@ -1,0 +1,8 @@
+*.hef
+venv_hailo_apps/
+*.mp3
+*.wav
+hailo-apps/
+hailo-rpi5-examples/
+hailo-apps/
+hailo-rpi5-examples/

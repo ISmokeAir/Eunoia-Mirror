@@ -1,0 +1,108 @@
+[2026-10-08 18:07:26.823] [7527] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-08 18:07:26.845] [7527] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-08 18:13:18.499] [7845] [HailoRT] [warning] [llm.cpp:746] [token_reader_thread] Conversation context is full. It is adivsable to clear context as cache size was reached
+[2026-10-08 18:13:38.411] [7897] [HailoRT] [warning] [llm.cpp:746] [token_reader_thread] Conversation context is full. It is adivsable to clear context as cache size was reached
+[2026-10-08 18:14:41.483] [7947] [HailoRT] [warning] [llm.cpp:746] [token_reader_thread] Conversation context is full. It is adivsable to clear context as cache size was reached
+[2026-10-08 18:14:43.105] [7948] [HailoRT] [warning] [llm.cpp:746] [token_reader_thread] Conversation context is full. It is adivsable to clear context as cache size was reached
+[2026-10-08 18:15:46.177] [7998] [HailoRT] [warning] [llm.cpp:746] [token_reader_thread] Conversation context is full. It is adivsable to clear context as cache size was reached
+[2026-10-08 18:16:49.250] [8049] [HailoRT] [warning] [llm.cpp:746] [token_reader_thread] Conversation context is full. It is adivsable to clear context as cache size was reached
+[2026-10-08 18:17:52.331] [8103] [HailoRT] [warning] [llm.cpp:746] [token_reader_thread] Conversation context is full. It is adivsable to clear context as cache size was reached
+[2026-10-08 23:55:22.239] [24002] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-08 23:55:22.261] [24002] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-08 23:57:07.335] [24002] [HailoRT] [error] [serializer.cpp:149] [deserialize_reply] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:57:07.335] [24002] [HailoRT] [error] [llm.cpp:241] [create_unique] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:57:07.336] [24002] [HailoRT] [error] [llm.cpp:165] [create] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-08 23:57:25.422] [24002] [HailoRT] [error] [serializer.cpp:149] [deserialize_reply] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:57:25.422] [24002] [HailoRT] [error] [llm.cpp:241] [create_unique] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:57:25.423] [24002] [HailoRT] [error] [llm.cpp:165] [create] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-08 23:57:50.444] [24002] [HailoRT] [error] [serializer.cpp:149] [deserialize_reply] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:57:50.444] [24002] [HailoRT] [error] [llm.cpp:241] [create_unique] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:57:50.444] [24002] [HailoRT] [error] [llm.cpp:165] [create] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-08 23:58:05.520] [24002] [HailoRT] [error] [serializer.cpp:149] [deserialize_reply] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:58:05.520] [24002] [HailoRT] [error] [llm.cpp:241] [create_unique] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-08 23:58:05.521] [24002] [HailoRT] [error] [llm.cpp:165] [create] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-08 23:58:36.130] [24002] [HailoRT] [error] [hailo_session_internal.cpp:195] [write_async] CHECK_SUCCESS failed with status=HAILO_STREAM_NOT_ACTIVATED(72)
+[2026-10-08 23:58:36.173] [24002] [HailoRT] [error] [session_wrapper.cpp:155] [send_file_chunked] CHECK_SUCCESS failed with status=HAILO_STREAM_NOT_ACTIVATED(72)
+[2026-10-08 23:58:36.179] [24002] [HailoRT] [error] [llm.cpp:234] [create_unique] CHECK_SUCCESS failed with status=HAILO_STREAM_NOT_ACTIVATED(72)
+[2026-10-08 23:58:36.179] [24002] [HailoRT] [error] [llm.cpp:165] [create] CHECK_SUCCESS failed with status=HAILO_STREAM_NOT_ACTIVATED(72)
+[2026-10-08 23:58:36.182] [24002] [HailoRT] [error] [driver_os_specific.cpp:168] [convert_errno_to_hailo_status] Ioctl HAILO_SOC_CONNECT failed due to connection refused
+[2026-10-08 23:58:36.188] [24002] [HailoRT] [error] [hailort_driver.cpp:734] [soc_connect] CHECK_SUCCESS failed with status=HAILO_CONNECTION_REFUSED(89) - Failed soc_connect
+[2026-10-08 23:58:36.188] [24002] [HailoRT] [error] [pcie_session.cpp:20] [connect] CHECK_SUCCESS failed with status=HAILO_CONNECTION_REFUSED(89)
+[2026-10-08 23:58:36.188] [24002] [HailoRT] [error] [hailo_session_internal.cpp:93] [connect] CHECK_SUCCESS failed with status=HAILO_CONNECTION_REFUSED(89)
+[2026-10-08 23:58:36.189] [24002] [HailoRT] [error] [hailo_session_internal.cpp:86] [connect] CHECK_SUCCESS failed with status=HAILO_CONNECTION_REFUSED(89)
+[2026-10-08 23:58:36.189] [24002] [HailoRT] [error] [genai_common.cpp:41] [create_session_wrapper] CHECK_SUCCESS failed with status=HAILO_CONNECTION_REFUSED(89)
+[2026-10-08 23:58:36.189] [24002] [HailoRT] [error] [llm.cpp:187] [create_unique] CHECK_SUCCESS failed with status=HAILO_CONNECTION_REFUSED(89)
+[2026-10-08 23:58:36.189] [24002] [HailoRT] [error] [llm.cpp:165] [create] CHECK_SUCCESS failed with status=HAILO_CONNECTION_REFUSED(89)
+[2026-10-08 23:58:36.189] [24002] [HailoRT] [critical] [vdevice_hrpc_client.cpp:132] [~VDeviceHrpcClient] Failed to destroy VDevice! status = HAILO_COMMUNICATION_CLOSED(62)
+[2026-10-08 23:58:36.189] [24002] [HailoRT] [critical] [device_hrpc_client.cpp:93] [~DeviceHrpcClient] Failed to destroy Device! status = HAILO_COMMUNICATION_CLOSED(62)
+[2026-10-08 23:58:46.073] [24228] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-08 23:58:46.099] [24228] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-08 23:59:06.978] [24333] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-08 23:59:07.011] [24333] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-08 23:59:45.594] [24370] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-08 23:59:45.616] [24370] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-08 23:59:52.210] [24370] [HailoRT] [error] [minja_wrapper.cpp:56] [render] Failed to render prompt from JSON strings: get<T> not defined for this value type: [{'type': 'text', 'text': 'Ești un asistent concis. Răspunzi doar în limba română.'}] at row 21, column 58:
+{%- if messages[0]['role'] == 'system' %}
+    {%- set system_message = messages[0]['content']|trim %}
+                                                         ^
+    {%- set messages = messages[1:] %}
+ at row 21, column 5:
+{%- if messages[0]['role'] == 'system' %}
+    {%- set system_message = messages[0]['content']|trim %}
+    ^
+    {%- set messages = messages[1:] %}
+ at row 20, column 42:
+{#- This block extracts the system message, so we can slot it into the right place. #}
+{%- if messages[0]['role'] == 'system' %}
+                                         ^
+    {%- set system_message = messages[0]['content']|trim %}
+ at row 20, column 1:
+{#- This block extracts the system message, so we can slot it into the right place. #}
+{%- if messages[0]['role'] == 'system' %}
+^
+    {%- set system_message = messages[0]['content']|trim %}
+ at row 1, column 1:
+{{- bos_token }}
+^
+{%- if custom_tools is defined %}
+
+[2026-10-08 23:59:52.210] [24370] [HailoRT] [error] [llm.cpp:614] [write] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-08 23:59:52.210] [24370] [HailoRT] [error] [llm.cpp:647] [generate] CHECK failed - Prompt cannot be empty! Make sure 'write()' was called
+[2026-10-08 23:59:52.210] [24370] [HailoRT] [error] [llm.cpp:565] [generate] CHECK_SUCCESS failed with status=HAILO_INVALID_OPERATION(6)
+[2026-10-08 23:59:54.111] [24386] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-08 23:59:54.133] [24386] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 00:00:08.197] [24386] [HailoRT] [error] [serializer.cpp:149] [deserialize_reply] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-09 00:00:08.197] [24386] [HailoRT] [error] [llm.cpp:241] [create_unique] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8) - Failed to create LLM
+[2026-10-09 00:00:08.198] [24386] [HailoRT] [error] [llm.cpp:165] [create] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-09 00:00:08.737] [24472] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 00:00:08.760] [24472] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 00:00:34.592] [24501] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 00:00:34.613] [24501] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 00:00:57.876] [24526] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 00:00:57.899] [24526] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 00:01:13.279] [24548] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 00:01:13.302] [24548] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 00:02:46.560] [24633] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 00:02:46.583] [24633] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 00:59:22.727] [28242] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 00:59:22.749] [28242] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 00:59:47.861] [28307] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 00:59:48.894] [28307] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 15:35:52.275] [4013] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 15:35:52.313] [4013] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 15:37:53.881] [4352] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 15:37:53.903] [4352] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 15:40:03.926] [4784] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 15:40:03.949] [4784] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 15:45:35.831] [5260] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 15:45:35.854] [5260] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 15:47:32.557] [5751] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 15:47:32.580] [5751] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 16:20:21.672] [7679] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 16:20:21.696] [7679] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-10-09 16:21:59.356] [7679] [HailoRT] [error] [event_os_specific.cpp:27] [wait_any] CHECK failed - poll failed with errno=4
+[2026-10-09 16:21:59.356] [7679] [HailoRT] [error] [event_internal.cpp:26] [wait] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-09 16:21:59.356] [7679] [HailoRT] [warning] [thread_safe_queue.hpp:192] [dequeue] m_items_enqueued_sema received an unexpected failure
+[2026-10-09 16:21:59.357] [7679] [HailoRT] [error] [llm.cpp:890] [read_all] CHECK_SUCCESS failed with status=HAILO_INTERNAL_FAILURE(8)
+[2026-10-09 16:22:04.891] [8064] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-10-09 16:22:04.914] [8064] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
